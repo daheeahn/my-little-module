@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "my-little-module": ["../src/index"],
+      "my-little-module/*": ["../src/*"]
+    }
+  }
+}
